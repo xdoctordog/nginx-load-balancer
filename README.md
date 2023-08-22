@@ -1,6 +1,4 @@
-# nginx-load-balancer
-
-NGINX Load Balancer + Simple HTML Web Site: Example 
+# NGINX Load Balancer + Simple HTML Web Site: Example 
 
 1) Clone to the new folder inside WSL2
 
@@ -11,4 +9,4 @@ NGINX Load Balancer + Simple HTML Web Site: Example
 4) hosts
 127.0.0.1 magento_alb.loc
 
-5) http://magento_alb.loc Open in browser & Refresh it
+5) http://magento_alb.loc : Open in browser & Refresh it
