@@ -1,4 +1,4 @@
-# NGINX Load Balancer + Simple HTML Web Site: Example 
+# NGINX Load Balancer + Simple HTML Web Site 
 
 1) Clone to the new folder inside WSL2
 
