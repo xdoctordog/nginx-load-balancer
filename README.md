@@ -30,9 +30,10 @@ At the first running comment the line
 
 8) Then restart the NGINX container with un-commented line 
 
-    upstream all {
+`    upstream all {
         server server.one:8000;
         server server.two:8088;
     }
+`
 
 9) I hope it should works
