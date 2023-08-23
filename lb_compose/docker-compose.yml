@@ -2,12 +2,13 @@
 version: "3"
 services:
   app:
-    image: markoshust/magento-nginx:1.18-8
-    container_name: "load_balancer_markoshust_nginx"
+    image: nginx:1.25.2
+    container_name: "load_balancer_nginx"
     ports:
       - "80:80"
       - "8000:8000"
-    volumes: &appvolumes
+      - "8088:8088"
+    volumes:
       - ../src/:/var/www/html:rw
       - ../nginx/nginx.conf:/etc/nginx/nginx.conf
       - ../nginx/default.conf:/etc/nginx/conf.d/default.conf
