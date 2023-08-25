@@ -6,7 +6,8 @@
 
 3) docker-compose up -d
 
-4) hosts
+4) Add line to hosts file:
+
 127.0.0.1 magento_alb.loc
 
 5) http://magento_alb.loc : Open in browser & Refresh it
